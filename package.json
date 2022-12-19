@@ -1,6 +1,6 @@
 {
   "name": "@adobe/generator-add-action-customer-profile",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Extensibility template for generating an Adobe Customer Profile App Builder action",
   "main": "index.js",
   "engines": {
