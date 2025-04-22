@@ -121,7 +121,7 @@ describe('run', () => {
     assertActionCodeContent(actionName)
     assertManifestContent(actionName)
     assertEnvContent(prevDotEnvContent)
-    assertDependencies(fs, { '@adobe/aio-sdk': expect.any(String) }, { '@openwhisk/wskdebug': expect.any(String) })
+    assertDependencies(fs, { '@adobe/aio-sdk': expect.any(String) })
     assertNodeEngines(fs, constants.nodeEngines)
   })
 
@@ -152,7 +152,7 @@ describe('run', () => {
     assertActionCodeContent(actionName)
     assertManifestContent(actionName, 'somepackage')
     assertEnvContent(prevDotEnvContent)
-    assertDependencies(fs, { '@adobe/aio-sdk': expect.any(String) }, { '@openwhisk/wskdebug': expect.any(String) })
+    assertDependencies(fs, { '@adobe/aio-sdk': expect.any(String) })
     assertNodeEngines(fs, constants.nodeEngines)
   })
 
@@ -173,7 +173,7 @@ describe('run', () => {
     assertActionCodeContent(actionName)
     assertManifestContent(actionName)
     assertEnvContent(prevDotEnvContent)
-    assertDependencies(fs, { '@adobe/aio-sdk': expect.any(String) }, { '@openwhisk/wskdebug': expect.any(String) })
+    assertDependencies(fs, { '@adobe/aio-sdk': expect.any(String) })
     assertNodeEngines(fs, constants.nodeEngines)
   })
 })
